@@ -1,6 +1,6 @@
 {
 	"name": "is-dom-node-list",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "ES2015 module for type checking DOM NodeLists",
 	"main": "dist/is-dom-node-list.js",
 	"module": "dist/is-dom-node-list.es.js",
