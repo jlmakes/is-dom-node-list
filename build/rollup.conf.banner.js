@@ -1,4 +1,4 @@
-const { version } = require('./package.json')
+const { version } = require('../package.json')
 
 export const condensed = `/*! @license is-dom-node-list v${version} (MIT) Copyright 2018 Fisssion LLC. */`
 
