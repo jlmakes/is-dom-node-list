@@ -1,11 +1,13 @@
 {
 	"name": "is-dom-node-list",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "ES2015 module for type checking DOM NodeLists",
 	"main": "dist/is-dom-node-list.js",
 	"module": "dist/is-dom-node-list.es.js",
 	"jsnext:main": "dist/is-dom-node-list.es.js",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"prebuild": "rm -rf dist/*",
 		"build": "npm run bundle && npm run bundle:min",
@@ -17,9 +19,14 @@
 		"testing": "npm test -- --no-single-run"
 	},
 	"repository": "jlmakes/is-dom-node-list",
-	"keywords": ["html", "element", "dom", "node"],
+	"keywords": [
+		"html",
+		"element",
+		"dom",
+		"node"
+	],
 	"dependencies": {
-		"is-dom-node": "^1.0.0"
+		"is-dom-node": "^1.0.2"
 	},
 	"devDependencies": {
 		"chai": "^4.1.2",
