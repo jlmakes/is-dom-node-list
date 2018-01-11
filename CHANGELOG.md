@@ -1,5 +1,12 @@
 # Change Log
 
+## Unreleased
+
+### Changed
+
+* `NodeList` detection algorithm has been updated.
+* Package no longer relies on `is-dom-node`.
+
 ## [1.0.2] - 2018-01-10
 
 ### Changed

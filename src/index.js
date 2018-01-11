@@ -1,5 +1,3 @@
-import isDomNode from 'is-dom-node'
-
 export default function isDomNodeList(x) {
 	const prototypeToString = Object.prototype.toString.call(x)
 	const regex = /^\[object (HTMLCollection|NodeList|Object)\]$/
@@ -10,5 +8,5 @@ export default function isDomNodeList(x) {
 				typeof x === 'object' &&
 				typeof x.length === 'number' &&
 				regex.test(prototypeToString) &&
-				(x.length === 0 || isDomNode(x[0]))
+				(x.length === 0 || (typeof x[0] === 'object' && x[0].nodeType > 0))
 }

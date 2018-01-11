@@ -1,6 +1,5 @@
 const rollupPlugins = [
 	require('rollup-plugin-json')(),
-	require('rollup-plugin-node-resolve')({ jsnext: true, main: true }),
 	require('rollup-plugin-buble')(),
 	require('rollup-plugin-istanbul')({
 		exclude: ['index.test.js', '**/node_modules/**'],
