@@ -4,9 +4,10 @@
 
 ### Changed
 
-* `NodeList` detection algorithm reverted. (yay!)
+* `NodeList` detection algorithm reverted.
 * Package once again relies on `is-dom-node`.
-* The ES distribution does not bundle `is-dom-node`. (external dependency)
+* The ES distribution does not bundle `is-dom-node`.
+* Revised readme.
 
 ## [1.1.0] - 2018-01-11
 
