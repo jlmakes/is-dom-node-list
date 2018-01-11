@@ -3,6 +3,7 @@
 ## Unreleased
 
 * Revised readme.
+* Upgrade `is-dom-node` dependency.
 
 ## [1.2.0] - 2018-01-11
 
