@@ -1,12 +1,13 @@
 const rollupPlugins = [
-	require('rollup-plugin-json')(),
 	require('rollup-plugin-buble')(),
 	require('rollup-plugin-istanbul')({
 		exclude: ['index.test.js', '**/node_modules/**'],
 		instrumenterConfig: {
 			embedSource: true // helps with inaccurate line numbers
 		}
-	})
+	}),
+	require('rollup-plugin-json')(),
+	require('rollup-plugin-node-resolve')()
 ]
 
 module.exports = karma => {

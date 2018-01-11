@@ -1,5 +1,13 @@
 # Change Log
 
+## Unreleased
+
+### Changed
+
+* `NodeList` detection algorithm reverted. (yay!)
+* Package once again relies on `is-dom-node`.
+* The ES distribution does not bundle `is-dom-node`. (external dependency)
+
 ## [1.1.0] - 2018-01-11
 
 ### Changed
